@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>BulgurSteamed</defName>
+    <label>bulgur</label>
+    <description>Grains in a small paper cup, carefully and quickly steamed. They never spoil, and you can pour boiling water over them in no time to get a ready meal. You can eat them half-raw, but it is not great, although the pleasant taste of the grain slightly softens the fact that you are chewing dry groats. Works with meat too.</description>
+    <soundInteract>Grain_Drop</soundInteract>
+    <soundDrop>Grain_Drop</soundDrop>
+
+    <graphicData>
+      <texPath>Things/Item/prop_bulgur</texPath>
+    </graphicData>
+
+    <statBases>
+      <MarketValue>10</MarketValue>
+      <Nutrition>0.5</Nutrition>
+      <Mass>0.2</Mass>
+      <DeteriorationRate>1</DeteriorationRate>
+      <FoodPoisonChanceFixedHuman>0</FoodPoisonChanceFixedHuman>
+    </statBases>
+
+    <ingestible>
+      <foodType>Seed</foodType>
+      <tasteThought>AteSemiRawGrain</tasteThought>
+    </ingestible>
+
+  </ThingDef>
+
+</Defs>

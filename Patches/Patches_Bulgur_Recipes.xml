@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[recipes/li="CookMealSimple"]/recipes</xpath>
+    <value>
+      <li>Bulgur_Steam</li>
+      <li>Bulgur_CookSimple</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[recipes/li="CookMealSimpleBulk"]/recipes</xpath>
+    <value>
+      <li>Bulgur_SteamBulk</li>
+      <li>Bulgur_CookSimpleBulk</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[recipes/li="CookMealLavish"]/recipes</xpath>
+    <value>
+      <li>Bulgur_CookLavishMeat</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[recipes/li="CookMealLavishBulk"]/recipes</xpath>
+    <value>
+      <li>Bulgur_CookLavishMeatBulk</li>
+    </value>
+  </Operation>
+
+</Patch>

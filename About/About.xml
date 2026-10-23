@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Bulgur Millet</name>
+  <author>AlanRaincry</author>
+  <modVersion>1.0</modVersion>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <packageId>AlanRaincry.BulgurMillet</packageId>
+  <description>RU: Этот простой нейросетевой шуточный мини-мод за вечер добавляет всего одно растение: Булгур-Пшено, генномодифицированную версию обычной пшеницы, только для булгура. Фишка булгура в том, что он растёт медленнее, чем рис, даёт меньше, чем рис, но при этом сильно экономит время для повара и растеневода, освобождая их для других задач. Булгур сырым как рис есть нельзя, зато его можно пропарить всего за 30% от изначальной скорости готовки блюд. Блюдо будет давать полную сытость, но будет давать дебафф, потому что оно полуготовое. За 10% от изначального времени, вы можете быстро превратить его в обычные вегетарианские блюда. Или за 30% времени приготовить шикарное блюдо с булгуром и мясом. В итоге вы экономите для повара 60-40%, так что в основном всё тратится на переноску. Мод создан для нелюбителей риса (Он слипается и неудобно готовится, и вообще у него высокий гликемический индекс!) и тем, кому рис просто быстро надоел. И в игре, и в жизни. Прочтите Readme.
+
+EN: A simple AI-assisted joke mini-mod made in an evening that adds a single plant: Bulgur Millet, a genetically modified version of ordinary wheat made for bulgur only. It grows slower than rice and yields less, but it saves a lot of time for your cook and your grower, freeing them up for other tasks. Raw bulgur can't be eaten like rice, but it can be steamed in just 30% of the usual cooking time. The steamed bulgur is a half-finished meal: it gives full nutrition but comes with a mood debuff. For 10% of the usual time you can quickly turn it into ordinary vegetarian meals, or for 30% of the time make a lavish meal with bulgur and meat. Overall the cook saves roughly 40-60% of the time, so most of it goes into hauling. The mod is for people who are tired of rice (it sticks together, it's awkward to cook, and its glycemic index is high anyway!) and for anyone who simply got bored of it, in the game and in real life. Please read the Readme.</description>
+</ModMetaData>

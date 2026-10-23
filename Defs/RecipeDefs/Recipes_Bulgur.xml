@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+  <RecipeDef>
+    <defName>Bulgur_Steam</defName>
+    <label>steam bulgur</label>
+    <description>Steam 10 bulgur grains into a cup of bulgur.</description>
+    <jobString>Steaming bulgur.</jobString>
+    <workAmount>90</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawBulgurGrain</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawBulgurGrain</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>RawBulgurGrain</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <BulgurSteamed>1</BulgurSteamed>
+    </products>
+    <displayPriority>90</displayPriority>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Bulgur_SteamBulk</defName>
+    <label>steam bulgur x4</label>
+    <description>Steam 40 bulgur grains into four small cups of bulgur.</description>
+    <jobString>Steaming bulgur (x4).</jobString>
+    <workAmount>360</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawBulgurGrain</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawBulgurGrain</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>RawBulgurGrain</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <BulgurSteamed>4</BulgurSteamed>
+    </products>
+    <displayPriority>91</displayPriority>
+  </RecipeDef>
+
+
+  <RecipeDef>
+    <defName>Bulgur_CookSimple</defName>
+    <label>brew a simple meal from bulgur</label>
+    <description>Pour boiling water over a cup of bulgur to get a simple meal.</description>
+    <jobString>Brewing bulgur.</jobString>
+    <workAmount>30</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BulgurSteamed</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BulgurSteamed</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>BulgurSteamed</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <MealSimple>1</MealSimple>
+    </products>
+    <displayPriority>92</displayPriority>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Bulgur_CookSimpleBulk</defName>
+    <label>brew simple meals from bulgur x4</label>
+    <description>Pour boiling water over four cups of bulgur to get four simple meals.</description>
+    <jobString>Brewing bulgur (x4).</jobString>
+    <workAmount>120</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BulgurSteamed</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BulgurSteamed</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>BulgurSteamed</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <MealSimple>4</MealSimple>
+    </products>
+    <displayPriority>93</displayPriority>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Bulgur_CookLavishMeat</defName>
+    <label>cook a lavish meal from bulgur with meat</label>
+    <description>Pour boiling water over the bulgur while the meat cooks. Much faster than the usual recipe.</description>
+    <jobString>Cooking a lavish bulgur and meat meal.</jobString>
+    <workAmount>240</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <skillRequirements>
+      <Cooking>8</Cooking>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <customSummary>protein</customSummary>
+          <categories>
+            <li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>0.5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BulgurSteamed</li>
+          </thingDefs>
+        </filter>
+        <count>0.5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+        <li>AnimalProductRaw</li>
+      </categories>
+      <thingDefs>
+        <li>BulgurSteamed</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+        <li>AnimalProductRaw</li>
+      </categories>
+      <thingDefs>
+        <li>BulgurSteamed</li>
+      </thingDefs>
+      <disallowedCategories>
+        <li>EggsFertilized</li>
+      </disallowedCategories>
+      <disallowedThingDefs>
+        <li>Meat_Human</li>
+        <li>Meat_Megaspider</li>
+        <li>InsectJelly</li>
+        <li MayRequire="Ludeon.RimWorld.Anomaly">Meat_Twisted</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <MealLavish>1</MealLavish>
+    </products>
+    <displayPriority>94</displayPriority>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Bulgur_CookLavishMeatBulk</defName>
+    <label>cook lavish meals from bulgur with meat x4</label>
+    <description>Bring four cups of bulgur with meat up to four lavish meals.</description>
+    <jobString>Cooking lavish bulgur and meat meals (x4).</jobString>
+    <workAmount>960</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <skillRequirements>
+      <Cooking>8</Cooking>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <customSummary>protein</customSummary>
+          <categories>
+            <li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>2.0</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BulgurSteamed</li>
+          </thingDefs>
+        </filter>
+        <count>2.0</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+        <li>AnimalProductRaw</li>
+      </categories>
+      <thingDefs>
+        <li>BulgurSteamed</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+        <li>AnimalProductRaw</li>
+      </categories>
+      <thingDefs>
+        <li>BulgurSteamed</li>
+      </thingDefs>
+      <disallowedCategories>
+        <li>EggsFertilized</li>
+      </disallowedCategories>
+      <disallowedThingDefs>
+        <li>Meat_Human</li>
+        <li>Meat_Megaspider</li>
+        <li>InsectJelly</li>
+        <li MayRequire="Ludeon.RimWorld.Anomaly">Meat_Twisted</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <MealLavish>4</MealLavish>
+    </products>
+    <displayPriority>95</displayPriority>
+  </RecipeDef>
+
+</Defs>

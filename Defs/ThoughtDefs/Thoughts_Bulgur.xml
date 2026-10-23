@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>AteSemiRawGrain</defName>
+    <thoughtClass>Thought_FoodEaten</thoughtClass>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>1</durationDays>
+    <nullifyingGenes>
+      <li MayRequire="Ludeon.RimWorld.Biotech">RobustDigestion</li>
+    </nullifyingGenes>
+    <stages>
+      <li>
+        <label>half-raw groats</label>
+        <description>It is no longer raw grain, but it is still far from real food. Groats should be finished properly, not swallowed like this... Ugh! If only there were butter...</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

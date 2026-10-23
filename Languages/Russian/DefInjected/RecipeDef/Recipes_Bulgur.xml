@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Bulgur_Steam.label>пропарить булгур</Bulgur_Steam.label>
+  <Bulgur_Steam.description>Пропарить 10 зёрен булгура до стакана булгура.</Bulgur_Steam.description>
+  <Bulgur_Steam.jobString>Пропаривает булгур.</Bulgur_Steam.jobString>
+  <Bulgur_SteamBulk.label>пропарить булгур x4</Bulgur_SteamBulk.label>
+  <Bulgur_SteamBulk.description>Пропарить 40 зёрен булгура до четырёх мелких стаканов булгура.</Bulgur_SteamBulk.description>
+  <Bulgur_SteamBulk.jobString>Пропаривает булгур (x4).</Bulgur_SteamBulk.jobString>
+  <Bulgur_CookSimple.label>заварить простое блюдо из булгура</Bulgur_CookSimple.label>
+  <Bulgur_CookSimple.description>Залить кипятком стакан булгура и получить простое блюдо.</Bulgur_CookSimple.description>
+  <Bulgur_CookSimple.jobString>Заваривает булгур.</Bulgur_CookSimple.jobString>
+  <Bulgur_CookSimpleBulk.label>заварить простое блюдо из булгура x4</Bulgur_CookSimpleBulk.label>
+  <Bulgur_CookSimpleBulk.description>Залить кипятком четыре стакана булгура и получить четыре простых блюда.</Bulgur_CookSimpleBulk.description>
+  <Bulgur_CookSimpleBulk.jobString>Заваривает булгур (x4).</Bulgur_CookSimpleBulk.jobString>
+  <Bulgur_CookLavishMeat.label>приготовить шикарное блюдо из булгура с мясом</Bulgur_CookLavishMeat.label>
+  <Bulgur_CookLavishMeat.description>Залить кипятком булгур, пока готовится мясо. Значительно быстрее обычного рецепта.</Bulgur_CookLavishMeat.description>
+  <Bulgur_CookLavishMeat.jobString>Готовит шикарное блюдо из булгура с мясом.</Bulgur_CookLavishMeat.jobString>
+  <Bulgur_CookLavishMeat.ingredients.0.filter.customSummary>белок</Bulgur_CookLavishMeat.ingredients.0.filter.customSummary>
+  <Bulgur_CookLavishMeatBulk.label>приготовить шикарное блюдо из булгура с мясом x4</Bulgur_CookLavishMeatBulk.label>
+  <Bulgur_CookLavishMeatBulk.description>Довести четыре стакана булгура с мясом до четырёх шикарных блюд.</Bulgur_CookLavishMeatBulk.description>
+  <Bulgur_CookLavishMeatBulk.jobString>Готовит шикарные блюда из булгура с мясом (x4).</Bulgur_CookLavishMeatBulk.jobString>
+  <Bulgur_CookLavishMeatBulk.ingredients.0.filter.customSummary>белок</Bulgur_CookLavishMeatBulk.ingredients.0.filter.customSummary>
+</LanguageData>

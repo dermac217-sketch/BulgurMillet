@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>RawBulgurGrain</defName>
+    <label>bulgur grains</label>
+    <description>Raw bulgur millet grains. Because of their dense, starchy husk they are barely digestible raw and need to be steamed first.</description>
+
+    <graphicData>
+      <texPath>Things/Item/bulgur</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>0.8</MarketValue>
+      <Mass>0.02</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+
+
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+
+    <tickerType>Rare</tickerType>
+
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_BulgurMillet</defName>
+    <label>bulgur millet</label>
+    <description>A genetically modified grain crop created by plant breeders solely for making bulgur. Takes 7 days to mature. Yields raw grains with a tough husk that are inedible without steaming first. Nobody knows who came up with this plant, but it sure cooks up fast. Too bad there is no butter...</description>
+
+    <graphicData>
+      <texPath>Things/Plant/Bulgur</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+
+    <ingestible>
+      <preferability>NeverForNutrition</preferability>
+    </ingestible>
+
+    <plant>
+      <growDays>7</growDays>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawBulgurGrain</harvestedThingDef>
+      <harvestYield>10</harvestYield>
+      <harvestWork>190</harvestWork>
+      <sowWork>260</sowWork>
+      <soundHarvesting>Harvest_Standard</soundHarvesting>
+      <soundHarvestFinish>Harvest_Standard_Finish</soundHarvestFinish>
+      <fertilityMin>0.5</fertilityMin>
+      <fertilitySensitivity>1.0</fertilitySensitivity>
+      <topWindExposure>0.1</topWindExposure>
+      <visualSizeRange>0.8~1.3</visualSizeRange>
+      <purpose>Food</purpose>
+
+      <immatureGraphicPath>Things/Plant/Bulgur_Immature</immatureGraphicPath>
+      <leaflessGraphicPath>Things/Plant/Bulgur_Leafless</leaflessGraphicPath>
+
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+    </plant>
+  </ThingDef>
+
+</Defs>
